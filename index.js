@@ -23,9 +23,7 @@ function preserveDecimal(n){
   return parseFloat(n);
 }
 log();
-function log(){
+var log = function(){
   console.log(hello);
   var hello = 'Hello';
 }
-
-
