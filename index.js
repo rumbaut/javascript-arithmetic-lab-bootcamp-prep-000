@@ -23,5 +23,10 @@ function preserveDecimal(n){
   return parseFloat(n);
 }
 
+function log(){
+  console.log(hello);
+  var hello = 'Hello';
+}
 
-console.log(add(5,2));
+log();
+
